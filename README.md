@@ -1,19 +1,19 @@
 
 # Social Distancing Detector 
 
-Hi Guys This is Day-1 of 15 days of Deep learning 
+Hi Guys This is Day 1 of 15 days of Deep learning 
 
-This project aims to detect people who are closer than the thresold in Covid era using Yolo weights .
+This project aims to detect people who are closer than the threshold in Covid era using Yolo weights.
 
 
 ##  Getting Started
 
 
-This project is done in GoogleColab , You can do it in any ide like Pycharm or even in kaggle
+This project is done in GoogleColab, You can do it in any ide like Pycharm or even in Kaggle
 
 In golab 
 
-This section downloads all the yolo pre trained weights, yolo config and also the class name which is coco.names
+This section downloads all the yolo pre-trained weights, yolo config, and also the class name which is coco.names
 ```bash
 import os
 
@@ -42,7 +42,7 @@ import numpy as np
 
 🔗**Load the Yolo model Model**
 
-cv2.dnn.readNetFromDarknet is a function to Load all the weights and conf file from yolo-coco directory
+cv2.dnn.readNetFromDarknet is a function to Load all the weights and conf files from yolo-coco directory
 ```bash
 net = cv2.dnn.readNetFromDarknet(
     os.path.join(Config.MODEL_PATH, "yolov3.cfg"),
