@@ -6,6 +6,10 @@ Hi Guys This is Day 1 of 15 days of Deep learning
 This project aims to detect people who are closer than the threshold in Covid era using Yolo weights.
 
 
+https://github.com/Aditikhasnis/Social-Distancing-Dectotor-/assets/110238534/06180e90-f052-4e40-980d-c5d8dd7384a4
+
+
+
 ##  Getting Started
 
 
